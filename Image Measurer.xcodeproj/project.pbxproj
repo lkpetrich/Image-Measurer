@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3D9C3213749D220026282E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3D9C3113749D220026282E /* Cocoa.framework */; };
+		CA3D9C3C13749D220026282E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA3D9C3A13749D220026282E /* InfoPlist.strings */; };
+		CA3D9C3F13749D230026282E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3D9C3E13749D230026282E /* main.m */; };
+		CA3D9C4213749D230026282E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CA3D9C4013749D230026282E /* Credits.rtf */; };
+		CA3D9C4513749D230026282E /* ImageMeasurer.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3D9C4413749D230026282E /* ImageMeasurer.m */; };
+		CA3D9C4813749D230026282E /* ImageMeasurer.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3D9C4613749D230026282E /* ImageMeasurer.xib */; };
+		CA3D9C4B13749D230026282E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3D9C4913749D230026282E /* MainMenu.xib */; };
+		CA4CE4D1137E34D00047C37A /* Pointer Crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = CA4CE4D0137E34D00047C37A /* Pointer Crosshair.png */; };
+		CA4CE4D5137E43610047C37A /* ImageDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4CE4D4137E43610047C37A /* ImageDisplayer.m */; };
+		CA812CB0138E870F00E7C8E0 /* MeasurementDisplayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA812CAE138E870F00E7C8E0 /* MeasurementDisplayer.xib */; };
+		CA88A9EF15BFD176009D145E /* ScalingParameters.c in Sources */ = {isa = PBXBuildFile; fileRef = CA88A9EE15BFD176009D145E /* ScalingParameters.c */; };
+		CAA2F4591380532A0093CB71 /* MeasurementDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA2F4581380532A0093CB71 /* MeasurementDisplayer.m */; };
+		CAAC8BCD1385AE3E0039F81A /* MeasurementExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAC8BCC1385AE3E0039F81A /* MeasurementExporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA3D9C2D13749D220026282E /* Image Measurer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Measurer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3D9C3113749D220026282E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CA3D9C3413749D220026282E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CA3D9C3513749D220026282E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CA3D9C3613749D220026282E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA3D9C3913749D220026282E /* Image Measurer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image Measurer-Info.plist"; sourceTree = "<group>"; };
+		CA3D9C3B13749D220026282E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA3D9C3D13749D220026282E /* Image Measurer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Image Measurer-Prefix.pch"; sourceTree = "<group>"; };
+		CA3D9C3E13749D230026282E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA3D9C4113749D230026282E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CA3D9C4313749D230026282E /* ImageMeasurer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageMeasurer.h; sourceTree = "<group>"; };
+		CA3D9C4413749D230026282E /* ImageMeasurer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMeasurer.m; sourceTree = "<group>"; };
+		CA3D9C4713749D230026282E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ImageMeasurer.xib; sourceTree = "<group>"; };
+		CA3D9C4A13749D230026282E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CA4CE4D0137E34D00047C37A /* Pointer Crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pointer Crosshair.png"; sourceTree = "<group>"; };
+		CA4CE4D3137E43610047C37A /* ImageDisplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDisplayer.h; sourceTree = "<group>"; };
+		CA4CE4D4137E43610047C37A /* ImageDisplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDisplayer.m; sourceTree = "<group>"; };
+		CA4CE4D6137E46CA0047C37A /* PositionReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionReceiver.h; sourceTree = "<group>"; };
+		CA812CAF138E870F00E7C8E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MeasurementDisplayer.xib; sourceTree = "<group>"; };
+		CA88A9EC15BFCED5009D145E /* ScalingParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalingParameters.h; sourceTree = "<group>"; };
+		CA88A9EE15BFD176009D145E /* ScalingParameters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ScalingParameters.c; sourceTree = "<group>"; };
+		CAA2F4571380532A0093CB71 /* MeasurementDisplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurementDisplayer.h; sourceTree = "<group>"; };
+		CAA2F4581380532A0093CB71 /* MeasurementDisplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurementDisplayer.m; sourceTree = "<group>"; };
+		CAAC8BCB1385AE3E0039F81A /* MeasurementExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasurementExporter.h; sourceTree = "<group>"; };
+		CAAC8BCC1385AE3E0039F81A /* MeasurementExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasurementExporter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA3D9C2A13749D220026282E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3D9C3213749D220026282E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA3D9C2213749D200026282E = {
+			isa = PBXGroup;
+			children = (
+				CA3D9C3713749D220026282E /* Image Measurer */,
+				CA3D9C3013749D220026282E /* Frameworks */,
+				CA3D9C2E13749D220026282E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA3D9C2E13749D220026282E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D9C2D13749D220026282E /* Image Measurer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3D9C3013749D220026282E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D9C3113749D220026282E /* Cocoa.framework */,
+				CA3D9C3313749D220026282E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA3D9C3313749D220026282E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D9C3413749D220026282E /* AppKit.framework */,
+				CA3D9C3513749D220026282E /* CoreData.framework */,
+				CA3D9C3613749D220026282E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CA3D9C3713749D220026282E /* Image Measurer */ = {
+			isa = PBXGroup;
+			children = (
+				CA4CE4D3137E43610047C37A /* ImageDisplayer.h */,
+				CA4CE4D4137E43610047C37A /* ImageDisplayer.m */,
+				CA3D9C4313749D230026282E /* ImageMeasurer.h */,
+				CA3D9C4413749D230026282E /* ImageMeasurer.m */,
+				CA3D9C4613749D230026282E /* ImageMeasurer.xib */,
+				CAA2F4571380532A0093CB71 /* MeasurementDisplayer.h */,
+				CAA2F4581380532A0093CB71 /* MeasurementDisplayer.m */,
+				CA812CAE138E870F00E7C8E0 /* MeasurementDisplayer.xib */,
+				CAAC8BCB1385AE3E0039F81A /* MeasurementExporter.h */,
+				CAAC8BCC1385AE3E0039F81A /* MeasurementExporter.m */,
+				CA4CE4D0137E34D00047C37A /* Pointer Crosshair.png */,
+				CA4CE4D6137E46CA0047C37A /* PositionReceiver.h */,
+				CA88A9EC15BFCED5009D145E /* ScalingParameters.h */,
+				CA88A9EE15BFD176009D145E /* ScalingParameters.c */,
+				CA3D9C4913749D230026282E /* MainMenu.xib */,
+				CA3D9C3813749D220026282E /* Supporting Files */,
+			);
+			path = "Image Measurer";
+			sourceTree = "<group>";
+		};
+		CA3D9C3813749D220026282E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D9C3913749D220026282E /* Image Measurer-Info.plist */,
+				CA3D9C3A13749D220026282E /* InfoPlist.strings */,
+				CA3D9C3D13749D220026282E /* Image Measurer-Prefix.pch */,
+				CA3D9C3E13749D230026282E /* main.m */,
+				CA3D9C4013749D230026282E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA3D9C2C13749D220026282E /* Image Measurer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3D9C4E13749D230026282E /* Build configuration list for PBXNativeTarget "Image Measurer" */;
+			buildPhases = (
+				CA3D9C2913749D220026282E /* Sources */,
+				CA3D9C2A13749D220026282E /* Frameworks */,
+				CA3D9C2B13749D220026282E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Image Measurer";
+			productName = "Image Measurer";
+			productReference = CA3D9C2D13749D220026282E /* Image Measurer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA3D9C2413749D200026282E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = CA3D9C2713749D200026282E /* Build configuration list for PBXProject "Image Measurer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA3D9C2213749D200026282E;
+			productRefGroup = CA3D9C2E13749D220026282E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA3D9C2C13749D220026282E /* Image Measurer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA3D9C2B13749D220026282E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3D9C3C13749D220026282E /* InfoPlist.strings in Resources */,
+				CA3D9C4213749D230026282E /* Credits.rtf in Resources */,
+				CA3D9C4813749D230026282E /* ImageMeasurer.xib in Resources */,
+				CA3D9C4B13749D230026282E /* MainMenu.xib in Resources */,
+				CA4CE4D1137E34D00047C37A /* Pointer Crosshair.png in Resources */,
+				CA812CB0138E870F00E7C8E0 /* MeasurementDisplayer.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA3D9C2913749D220026282E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3D9C3F13749D230026282E /* main.m in Sources */,
+				CA3D9C4513749D230026282E /* ImageMeasurer.m in Sources */,
+				CA4CE4D5137E43610047C37A /* ImageDisplayer.m in Sources */,
+				CAA2F4591380532A0093CB71 /* MeasurementDisplayer.m in Sources */,
+				CAAC8BCD1385AE3E0039F81A /* MeasurementExporter.m in Sources */,
+				CA88A9EF15BFD176009D145E /* ScalingParameters.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA3D9C3A13749D220026282E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3D9C3B13749D220026282E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA3D9C4013749D230026282E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3D9C4113749D230026282E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CA3D9C4613749D230026282E /* ImageMeasurer.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3D9C4713749D230026282E /* en */,
+			);
+			name = ImageMeasurer.xib;
+			sourceTree = "<group>";
+		};
+		CA3D9C4913749D230026282E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3D9C4A13749D230026282E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CA812CAE138E870F00E7C8E0 /* MeasurementDisplayer.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA812CAF138E870F00E7C8E0 /* en */,
+			);
+			name = MeasurementDisplayer.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA3D9C4C13749D230026282E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CA3D9C4D13749D230026282E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CA3D9C4F13749D230026282E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Image Measurer/Image Measurer-Prefix.pch";
+				INFOPLIST_FILE = "Image Measurer/Image Measurer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lpetrich.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA3D9C5013749D230026282E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Image Measurer/Image Measurer-Prefix.pch";
+				INFOPLIST_FILE = "Image Measurer/Image Measurer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lpetrich.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA3D9C2713749D200026282E /* Build configuration list for PBXProject "Image Measurer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3D9C4C13749D230026282E /* Debug */,
+				CA3D9C4D13749D230026282E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3D9C4E13749D230026282E /* Build configuration list for PBXNativeTarget "Image Measurer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3D9C4F13749D230026282E /* Debug */,
+				CA3D9C5013749D230026282E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA3D9C2413749D200026282E /* Project object */;
+}
